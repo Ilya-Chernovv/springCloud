@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: authorization-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_db
+    username: postgres
+    password: your_password
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/auth_db
+    username: postgres
+    password: your_password
+  redis:
+    host: localhost
+    port: 6379
+server:
+  port: 8080
