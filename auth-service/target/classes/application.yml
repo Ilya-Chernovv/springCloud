@@ -18,3 +18,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+config:
+        uri: http://localhost:8888
+        discovery:
+          enabled: true
+          service-id: CONFIG-SERVICE
+        import: "configserver:"

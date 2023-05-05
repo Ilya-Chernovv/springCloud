@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>auth-service</module>
         <module>entities-service</module>
         <module>gateway</module>
         <module>discovery</module>
