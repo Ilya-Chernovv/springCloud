@@ -22,7 +22,7 @@
       <module name="common" options="-parameters" />
       <module name="config" options="" />
       <module name="discovery" options="" />
-      <module name="entities-service" options="-parameters" />
+      <module name="entities-service" options="-parameters --add-modules java.base" />
       <module name="gateway" options="" />
     </option>
   </component>
