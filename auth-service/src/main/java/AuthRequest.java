@@ -1,6 +1,6 @@
 import lombok.Data;
 
-// DTO для запросов авторизации
+// хранит данные полученные от пользователя при попытке авторизации
 
 @Data
 public class AuthRequest {
