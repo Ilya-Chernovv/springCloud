@@ -10,20 +10,24 @@
         <module name="auth-service" />
         <module name="entities-service" />
         <module name="common" />
+        <module name="discovery" />
         <module name="config" />
         <module name="gateway" />
-        <module name="discovery" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service2" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-service" options="-parameters --add-modules java.base" />
+      <module name="auth-service2" options="-parameters --add-modules java.base" />
       <module name="common" options="-parameters" />
-      <module name="config" options="--add-modules java.base" />
-      <module name="discovery" options="--add-modules java.base" />
-      <module name="entities-service" options="-parameters --add-modules java.base" />
-      <module name="gateway" options="--add-modules java.base" />
+      <module name="config" options="" />
+      <module name="discovery" options="" />
+      <module name="entities-service" options="-parameters" />
+      <module name="gateway" options="" />
     </option>
   </component>
 </project>
